@@ -1,0 +1,85 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.section:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}
+
+.section:nth-child(even) {
+    background: rgb(254, 254, 254);
+}
+
+.text-container {
+    position: relative;
+  }
+  
+  .text-container span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px; /* 设置文字大小，根据需要进行调整 */
+    text-align: center; /* 设置文字居中对齐 */
+    line-height: 20; 
+}
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 按比例调整填充高度，这里使用16:9的宽高比 */
+  }
+  
+  .video-wrapper {
+    position: relative;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+  }
+  
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* 设置透明背景颜色 */
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.text-overlay h1,
+  .text-overlay p {
+    margin: 0;
+ }
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+h1 {
+    font-family: 'Noto Serif TC', serif;
+    font: size 50px; ;
+  }
+  p {
+    font-family: Arial, sans-serif;
+  }
+h2 {
+    font-family: 'Noto Serif TC', serif;
+    font: size 50px; ;
+}
+  
+
+  
+
+  
